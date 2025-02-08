@@ -1,0 +1,28 @@
+input[type="text"]{
+    background-color: aquamarine;
+}
+ul>li {
+    color: rgb(96, 115, 221);
+}
+h1+p{
+    color: indigo;
+}
+li:hover{
+background-color: maroon;
+color: rgb(67, 158, 125);
+}
+li:nth-child(2){
+    background-color: midnightblue;
+}
+p:not(:first-of-type){
+    color: darkcyan;
+}
+li::before{
+    content: "(●'◡'●)";
+}
+li::after{
+    content: "🚕";
+}
+p::first-letter{
+    color: aquamarine;
+}
